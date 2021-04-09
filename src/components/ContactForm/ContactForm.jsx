@@ -34,7 +34,7 @@ export default class ContactForm extends Component {
     }
 
     if (name === '' || number === '') {
-      alert('Please enter all data');
+      alert('Please enter contact information');
       return true;
     }
   };
